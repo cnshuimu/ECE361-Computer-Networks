@@ -1,0 +1,4 @@
+gcc    -c -o server.o server.c
+gcc   server.o   -o server
+gcc    -c -o deliver.o deliver.c
+gcc   deliver.o   -o deliver
